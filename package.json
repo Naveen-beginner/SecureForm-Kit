@@ -1,0 +1,30 @@
+{
+  "name": "safeauthjs",
+  "version": "1.0.0",
+  "description": "A lightweight reusable email and password validation package for JavaScript and Node.js applications.",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "validator",
+    "validation",
+    "email-validator",
+    "password-validator",
+    "authentication",
+    "regex",
+    "nodejs",
+    "javascript",
+    "utility"
+  ],
+  "author": "4FrndTech",
+  "license": "MIT",
+  "files": [
+    "validators",
+    "constants.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
