@@ -23,8 +23,8 @@ npm install safeauthjs
 
 ```js
 import {
-    emailValidator,
-    passwordValidator
+    email_validator,
+    password_validator
 } from "safeauthjs"
 ```
 
@@ -157,8 +157,8 @@ console.log(passwordResult)
 safeauthjs/
 │
 ├── validators/
-│   ├── emailValidator.js
-│   └── passwordValidator.js
+│   ├── email_validator.js
+│   └── password_validator.js
 │
 ├── constants.js
 ├── index.js
@@ -177,4 +177,4 @@ MIT License
 
 # Author
 
-Developed by 4FrndTech
+Developed by FrndTech

@@ -15,8 +15,16 @@
     "javascript",
     "utility"
   ],
-  "author": "4FrndTech",
+  "author": "FrndTech",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveen-beginner/SafeAuthJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Naveen-beginner/SafeAuthJS/issues"
+  },
+  "homepage": "https://github.com/Naveen-beginner/SafeAuthJS#readme",
   "files": [
     "validators",
     "constants.js",
