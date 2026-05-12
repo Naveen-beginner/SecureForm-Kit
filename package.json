@@ -1,6 +1,6 @@
 {
   "name": "secureform-kit",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A lightweight reusable form validation package for JavaScript and Node.js applications.",
   "main": "index.js",
   "types": "index.d.ts",
