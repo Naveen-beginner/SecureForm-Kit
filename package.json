@@ -1,38 +1,59 @@
 {
-  "name": "safeauthjs",
-  "version": "1.0.0",
-  "description": "A lightweight reusable email and password validation package for JavaScript and Node.js applications.",
+  "name": "secureformjs",
+  "version": "1.0.1",
+  "description": "A lightweight reusable form validation package for JavaScript and Node.js applications.",
   "main": "index.js",
+  "types": "index.d.ts",
   "type": "module",
   "keywords": [
     "validator",
     "validation",
+    "form-validation",
     "email-validator",
     "password-validator",
-    "authentication",
+    "secure-form",
+    "security",
     "regex",
     "nodejs",
     "javascript",
-    "utility"
+    "utility",
+    "form",
+    "email",
+    "password",
+    "secureformjs"
   ],
   "author": "FrndTech",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Naveen-beginner/SafeAuthJS.git"
+    "url": "https://github.com/Naveen-beginner/SecureFormJs.git"
   },
   "bugs": {
-    "url": "https://github.com/Naveen-beginner/SafeAuthJS/issues"
+    "url": "https://github.com/Naveen-beginner/SecureFormJs/issues"
   },
-  "homepage": "https://github.com/Naveen-beginner/SafeAuthJS#readme",
+  "homepage": "https://github.com/Naveen-beginner/SecureFormJs#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Naveen-beginner"
+  },
   "files": [
-    "validators",
+    "validators/",
     "constants.js",
     "index.js",
+    "test.js",
+    "CONTRIBUTING.md",
+    "index.d.ts",
     "README.md",
     "LICENSE"
   ],
   "engines": {
     "node": ">=14"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node test.js"
   }
 }

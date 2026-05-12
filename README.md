@@ -1,20 +1,20 @@
-# safeauthjs
+# secureformjs
 
-A lightweight and reusable authentication validation package for JavaScript and Node.js applications.
+A lightweight and reusable form validation package for JavaScript and Node.js applications.
 
-`safeauthjs` provides simple and clean validators for:
+`secureformjs` provides simple, clean, and beginner-friendly validators for:
 
 - Email validation
 - Password validation
 
-Built using modern ES Modules and designed for easy integration into backend and frontend applications.
+Built using modern ES Modules and designed for seamless integration into both frontend and backend applications.
 
 ---
 
 # Installation
 
 ```bash
-npm install safeauthjs
+npm install secureformjs
 ```
 
 ---
@@ -23,16 +23,16 @@ npm install safeauthjs
 
 ```js
 import {
-    email_validator,
-    password_validator
-} from "safeauthjs"
+  emailValidator,
+  passwordValidator
+} from "secureformjs"
 ```
 
 ---
 
 # Email Validator
 
-Validate email addresses using built-in checks.
+Validate email addresses using built-in validation rules.
 
 ## Example
 
@@ -46,9 +46,9 @@ console.log(result)
 
 ```js
 {
-    success: true,
-    message: "The provided email successfully passed all validation checks",
-    data: "naveen@gmail.com"
+  success: true,
+  message: "The provided email successfully passed all validation checks",
+  data: "naveen@gmail.com"
 }
 ```
 
@@ -56,8 +56,8 @@ console.log(result)
 
 ```js
 {
-    success: false,
-    message: "Email contains an unsupported top-level domain"
+  success: false,
+  message: "Email contains an unsupported top-level domain"
 }
 ```
 
@@ -67,11 +67,12 @@ console.log(result)
 
 The email validator checks for:
 
-- Valid `@` symbol usage
+- Proper `@` symbol usage
 - Supported top-level domains (TLDs)
-- Proper starting character
+- Valid starting character
 - Minimum email length
 - No consecutive dots
+- Basic email formatting standards
 
 ---
 
@@ -91,9 +92,9 @@ console.log(result)
 
 ```js
 {
-    success: true,
-    message: "The provided password successfully passed all validation checks",
-    data: "Naveen@123"
+  success: true,
+  message: "The provided password successfully passed all validation checks",
+  data: "Naveen@123"
 }
 ```
 
@@ -101,8 +102,8 @@ console.log(result)
 
 ```js
 {
-    success: false,
-    message: "Password should contain an uppercase letter"
+  success: false,
+  message: "Password should contain an uppercase letter"
 }
 ```
 
@@ -123,12 +124,13 @@ The password validator checks for:
 
 # Features
 
-- Lightweight
+- Lightweight and fast
 - Reusable validation utilities
 - Clean and consistent response objects
 - Beginner-friendly API
-- ES Module support
+- Modern ES Module support
 - No external dependencies
+- Frontend and backend compatible
 
 ---
 
@@ -136,9 +138,9 @@ The password validator checks for:
 
 ```js
 import {
-    emailValidator,
-    passwordValidator
-} from "safeauthjs"
+  emailValidator,
+  passwordValidator
+} from "secureformjs"
 
 const emailResult = emailValidator("example@gmail.com")
 
@@ -154,7 +156,7 @@ console.log(passwordResult)
 # Project Structure
 
 ```txt
-safeauthjs/
+secureformjs/
 │
 ├── validators/
 │   ├── email_validator.js
@@ -176,5 +178,4 @@ MIT License
 ---
 
 # Author
-
-Developed by FrndTech
+Developed and maintained by FrndTech
