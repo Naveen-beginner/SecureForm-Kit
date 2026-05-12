@@ -1,6 +1,6 @@
 {
   "name": "secureformjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight reusable form validation package for JavaScript and Node.js applications.",
   "main": "index.js",
   "types": "index.d.ts",
