@@ -1,8 +1,8 @@
-# secureformjs
+# secureform-kit
 
 A lightweight and reusable form validation package for JavaScript and Node.js applications.
 
-`secureformjs` provides simple, clean, and beginner-friendly validators for:
+`secureform-kit` provides simple, clean, and beginner-friendly validators for:
 
 - Email validation
 - Password validation
@@ -14,7 +14,7 @@ Built using modern ES Modules and designed for seamless integration into both fr
 # Installation
 
 ```bash
-npm install secureformjs
+npm install secureform-kit
 ```
 
 ---
@@ -25,7 +25,7 @@ npm install secureformjs
 import {
   emailValidator,
   passwordValidator
-} from "secureformjs"
+} from "secureform-kit"
 ```
 
 ---
@@ -140,7 +140,7 @@ The password validator checks for:
 import {
   emailValidator,
   passwordValidator
-} from "secureformjs"
+} from "secureform-kit"
 
 const emailResult = emailValidator("example@gmail.com")
 
@@ -156,7 +156,7 @@ console.log(passwordResult)
 # Project Structure
 
 ```txt
-secureformjs/
+secureform-kit/
 │
 ├── validators/
 │   ├── email_validator.js

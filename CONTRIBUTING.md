@@ -1,4 +1,4 @@
-# Contributing to secureformjs
+# Contributing to secureform-kit
 
 Thank you for considering contributing.
 

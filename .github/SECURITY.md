@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability or issue in secureformjs, please report it responsibly.
+If you discover a security vulnerability or issue in secureform-kit, please report it responsibly.
 
 Contact:
 devfrnd993@gmail.com
@@ -13,4 +13,4 @@ Please include:
 - Steps to reproduce
 - Possible impact
 
-Thank you for helping improve secureformjs.
+Thank you for helping improve secureform-kit.
